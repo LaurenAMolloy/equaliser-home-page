@@ -1,0 +1,32 @@
+:root {
+    --cyan: #66E2DC;
+    --orange: #FA7453;
+    --yellow: #FFB964;
+    --white: #FCFAF9;
+    --slate: #191826;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    background-image: url(./img/bg-main.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: var(--slate);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 88px;
+    width: 70%;
+}
+
+p {
+    font-size: 20px;
+    width: 60%;
+}
+
+.card {
+    background-color: #FA7453;
+    height: 600px;
+}
