@@ -17,16 +17,36 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 88px;
-    width: 70%;
+    font-size: 80px;
 }
 
 p {
     font-size: 20px;
-    width: 60%;
+}
+
+.custom-height {
+
+    position: relative;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.background-img {
+    /* Adjust the height to be proportional */
+    z-index: 1;
+}
+
+.phone {
+    z-index: 2;
+    /* Ensure it appears above the background */
 }
 
 .card {
+    z-index: 2;
+    /* Ensure the card appears above the background image */
     background-color: #FA7453;
     height: 600px;
+    width: 512px;
 }
